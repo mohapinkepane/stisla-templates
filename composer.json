@@ -19,9 +19,9 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "illuminate/support": "^9.0",
-        "infyomlabs/laravel-ui-stisla": "^4.0"
+        "php": "^8.1",
+        "illuminate/support": "^10.0",
+        "infyomlabs/laravel-ui-stisla": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -39,6 +39,12 @@
         {
             "type": "opencollective",
             "url": "https://opencollective.com/infyomlabs"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mohapinkepane/laravel-ui-stisla"
         }
     ]
 }
